@@ -192,6 +192,10 @@
     <Content Include="Images\audi gray.jpg" />
     <Content Include="Images\audi tt blue.jpg" />
     <Content Include="Images\audi tt red.jpg" />
+    <Content Include="Images\searchIcon.png" />
+    <Content Include="Images\trends\audit tt 5.jpg" />
+    <Content Include="Images\trends\audit tt 6.jpg" />
+    <Content Include="Images\trends\audit tt 7.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
