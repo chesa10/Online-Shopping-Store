@@ -63,7 +63,7 @@
           <Property Name="IsDelete" Type="bit" />
           <Property Name="CreatedDate" Type="datetime" />
           <Property Name="ModifiedDate" Type="datetime" />
-          <Property Name="Description" Type="datetime" />
+          <Property Name="Description" Type="varchar" MaxLength="500" />
           <Property Name="ProductImage" Type="varchar(max)" />
           <Property Name="IsFeature" Type="bit" />
           <Property Name="Quantity" Type="int" />
@@ -277,7 +277,7 @@
           <Property Name="IsDelete" Type="Boolean" />
           <Property Name="CreatedDate" Type="DateTime" Precision="3" />
           <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-          <Property Name="Description" Type="String" />
+          <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
           <Property Name="ProductImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="IsFeature" Type="Boolean" />
           <Property Name="Quantity" Type="Int32" />
