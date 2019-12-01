@@ -35,16 +35,16 @@ namespace OnlineShoppingStore.Controllers
 
         public ActionResult UpdateCategory(int categoryId)
         {
-            CategoryDetail cd;
+            CategoryDetail category;
             if (categoryId != null)
             {
-                cd = JsonConvert.DeserializeObject<CategoryDetail>(JsonConvert.SerializeObject(_genericUnitOfWork.GetRepositoryInstance<Tbl_Category>().GetFirstorDefault(categoryId)));
+                category = JsonConvert.DeserializeObject<CategoryDetail>(JsonConvert.SerializeObject(_genericUnitOfWork.GetRepositoryInstance<Tbl_Category>().GetFirstorDefault(categoryId)));
             }
             else
             {
-                cd = new CategoryDetail();
+                category = new CategoryDetail();
             }
-            return View("UpdateCategory", cd);
+            return View("UpdateCategory", category);
         }
     }
 }
